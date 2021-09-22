@@ -27,7 +27,7 @@ public class SkipCommand extends ListenerAdapter {
                     channel.sendMessage("Voice channel asen a age").queue();
                 else {
                     if (!memberVoiceState.getChannel().equals(selfVoiceState.getChannel()))
-                        channel.sendMessage("Ak channel a na thakle bajabo kmne?").queue();
+                        channel.sendMessage("Ak channel a na thakle skip kmne krbo?").queue();
                     else {
                         final GuildMusicManager musicManager = PlayerManager.getInstance().getMusicManager(e.getGuild());
                         final AudioPlayer audioPlayer = musicManager.audioPlayer;
