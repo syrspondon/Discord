@@ -25,5 +25,6 @@ public class Bot {
         jda.addEventListener(new SkipCommand());
         jda.addEventListener(new LeaveCommand());
         jda.addEventListener(new QueueCommand());
+        jda.addEventListener(new NowPlayingCommand());
     }
 }
