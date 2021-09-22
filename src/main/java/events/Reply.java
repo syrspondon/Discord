@@ -43,6 +43,8 @@ public class Reply extends ListenerAdapter {
             e.getChannel().sendMessage("Domestic girlfriend dakh beta").queue();
         else if (a.equalsIgnoreCase("<@!273355497783164928>")) //Ishman
             e.getChannel().sendMessage("Pro-est gamer alive").queue();
+        else if (a.equalsIgnoreCase("<@!493855038796595200>")) //Shanto
+            e.getChannel().sendMessage("pola noob").queue();
         //System.out.println(e.getMessage().getContentRaw());
     }
 }
