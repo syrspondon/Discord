@@ -1,2 +1,2 @@
-# Discord bot
-updated
+# Discord
+updated discord bot
