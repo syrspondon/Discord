@@ -26,7 +26,7 @@ public class DeleteCommand extends ListenerAdapter {
                     channel.sendMessage("Voice channel asen a age").queue();
                 else {
                     if (!memberVoiceState.getChannel().equals(selfVoiceState.getChannel()))
-                        channel.sendMessage("Ak channel a na thakle bajabo kmne?").queue();
+                        channel.sendMessage("Ak channel a na thakle thamabo kmne?").queue();
                     else {
                         final GuildMusicManager musicManager = PlayerManager.getInstance().getMusicManager(e.getGuild());
 
