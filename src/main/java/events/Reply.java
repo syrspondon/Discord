@@ -48,7 +48,7 @@ public class Reply extends ListenerAdapter {
         else if (a.equalsIgnoreCase("<@!649299590650265610>")) //choto Shanto
             e.getChannel().sendMessage("Nokol dot user").queue();
         else if (a.equalsIgnoreCase("<@!419839150653440001>")) //boro Shanto
-            e.getChannel().sendMessage("Java is live").queue();
+            e.getChannel().sendMessage("Java is life").queue();
         else if (a.equalsIgnoreCase("<@!435077413253152770>")) //ami
             e.getChannel().sendMessage("ghumaitesi, jalash na").queue();
         else if (a.equalsIgnoreCase("<@!885388273160192022>")) //bot
