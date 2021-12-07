@@ -38,9 +38,9 @@ public class Reply extends ListenerAdapter {
         else if (a.equalsIgnoreCase("<@!446335997085483029>")) //Tasin
             e.getChannel().sendMessage("Ami boba, kotha bolbo na!").queue();
         else if (a.equalsIgnoreCase("<@!387264216899387392>")) //Farhan
-            e.getChannel().sendMessage("Intern, tmi kothay?").queue();
+            e.getChannel().sendMessage("আমি এখন দিশেহারা").queue();
         else if (a.equalsIgnoreCase("<@!405769489808883712>")) //Saad
-            e.getChannel().sendMessage("battlefield 2042 is life").queue();
+            e.getChannel().sendMessage("Intern akhon amar").queue();
         else if (a.equalsIgnoreCase("<@!273355497783164928>")) //Ishman
             e.getChannel().sendMessage("Pro-est gamer alive").queue();
         else if (a.equalsIgnoreCase("<@!493855038796595200>")) //Shanto
