@@ -24,7 +24,7 @@ public class Reply extends ListenerAdapter {
         else if (a.equalsIgnoreCase("gg"))
             e.getChannel().sendMessage("ez").queue();
         else if (a.equalsIgnoreCase("noob"))
-            e.getChannel().sendMessage("ho, saad noob").queue();
+            e.getChannel().sendMessage("ho, shanto noob").queue();
         else if (a.equalsIgnoreCase("|marakha")||a.equalsIgnoreCase("|mara kha"))
             e.getChannel().sendMessage("Ghumaitesi, jalas na\nSong sunte chaile |join koray |play lekh").queue();
         else if (a.equalsIgnoreCase("<@&767801627750826005>"))
@@ -53,6 +53,6 @@ public class Reply extends ListenerAdapter {
             e.getChannel().sendMessage("ghumaitesi, jalash na").queue();
         else if (a.equalsIgnoreCase("<@!885388273160192022>")) //bot
             e.getChannel().sendMessage("ghumaitesi, jalash na").queue();
-        //System.out.println(e.getMessage().getContentRaw());
+//         System.out.println(e.getMessage().getContentRaw());
     }
 }
