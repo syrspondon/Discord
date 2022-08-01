@@ -53,6 +53,6 @@ public class Reply extends ListenerAdapter {
             e.getChannel().sendMessage("ghumaitesi, jalash na").queue();
         else if (a.equalsIgnoreCase("<@!885388273160192022>")) //bot
             e.getChannel().sendMessage("ghumaitesi, jalash na").queue();
-//         System.out.println(e.getMessage().getContentRaw());
+        System.out.println(e.getMessage().getContentRaw());
     }
 }
