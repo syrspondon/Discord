@@ -33,6 +33,7 @@ public class Reply extends ListenerAdapter {
             e.getChannel().sendMessage("L 0 L").queue();
         else if (a.equalsIgnoreCase("Rachel"))
             e.getChannel().sendMessage("Baler nam nibi na").queue();
+        
         else if (a.equalsIgnoreCase("<@446335997085483029>")) //Tasin
             e.getChannel().sendMessage("Ami boba, kotha bolbo na!").queue();
         else if (a.equalsIgnoreCase("<@387264216899387392>")) //Farhan
@@ -41,21 +42,29 @@ public class Reply extends ListenerAdapter {
             e.getChannel().sendMessage("Amr ase 15, tomar ase koto?").queue();
         else if (a.equalsIgnoreCase("<@273355497783164928>")) //Ishman
             e.getChannel().sendMessage("Pro-est gamer alive").queue();
-        else if (a.equalsIgnoreCase("<@493855038796595200>")) //Shanto
-            e.getChannel().sendMessage("pola noob").queue();
         else if (a.equalsIgnoreCase("<@649299590650265610>")) //choto Shanto
             e.getChannel().sendMessage("Nokol dot user").queue();
         else if (a.equalsIgnoreCase("<@419839150653440001>")) //boro Shanto
             e.getChannel().sendMessage("Java is life").queue();
+        
         else if (a.equalsIgnoreCase("<@435077413253152770>")) //ami
             e.getChannel().sendMessage("ghumaitesi, jalash na").queue();
         else if (a.equalsIgnoreCase("<@885388273160192022>")) //bot
             e.getChannel().sendMessage("ghumaitesi, jalash na").queue();
         
+        else if (a.equalsIgnoreCase("<@493855038796595200>")) //Shanto
+            e.getChannel().sendMessage("pola noob").queue();
         else if (a.equalsIgnoreCase("<@640549288749039618>")) //sadman
             e.getChannel().sendMessage("ak 69kg, beshi na vaya").queue();
         else if (a.equalsIgnoreCase("<@432224139227430912>")) //sabit
             e.getChannel().sendMessage("code kortesi, jalas na").queue();
+        else if (a.equalsIgnoreCase("<@493695110517751818>")) //nola
+            e.getChannel().sendMessage("ami natki nola, khai sudhu kola").queue();
+        else if (a.equalsIgnoreCase("<@399916757222948865>")) //mushfiqvhai
+            e.getChannel().sendMessage("biye korben kbe?").queue();
+        else if (a.equalsIgnoreCase("<@522834007688216587>")) //ivan
+            e.getChannel().sendMessage("pola valo hoye gese (almost)").queue();
+        
         System.out.println(e.getMessage().getContentRaw());
     }
 }
