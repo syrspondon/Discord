@@ -63,7 +63,7 @@ public class Reply extends ListenerAdapter {
         else if (a.equalsIgnoreCase("<@399916757222948865>")) //mushfiqvhai
             e.getChannel().sendMessage("biye korben kbe?").queue();
         else if (a.equalsIgnoreCase("<@522834007688216587>")) //ivan
-            e.getChannel().sendMessage("pola valo hoye gese (almost)").queue();
+            e.getChannel().sendMessage("pola valo hoye gese (almost(almost(almost)))").queue();
         
         System.out.println(e.getMessage().getContentRaw());
     }
