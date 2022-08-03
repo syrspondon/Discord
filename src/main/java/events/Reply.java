@@ -13,6 +13,8 @@ public class Reply extends ListenerAdapter {
         String a = e.getMessage().getContentRaw();
         if (a.equalsIgnoreCase("hello")||a.equalsIgnoreCase("hi"))
             e.getChannel().sendMessage("mara kha").queue();
+        else if (a.equalsIgnoreCase("mara kha"))
+            e.getChannel().sendMessage("na, tui kha").queue();
         else if (a.equalsIgnoreCase("tui mara kha"))
             e.getChannel().sendMessage("na, tui kha").queue();
         else if (a.equalsIgnoreCase("Michael"))
