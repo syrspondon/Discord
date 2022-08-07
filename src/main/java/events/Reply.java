@@ -12,7 +12,7 @@ public class Reply extends ListenerAdapter {
     {
         String a = e.getMessage().getContentRaw();
         if (a.equalsIgnoreCase("hello")||a.equalsIgnoreCase("hi"))
-            e.getChannel().sendMessage("mara kha").queue();
+            e.getChannel().sendMessage("mara kha...").queue();
         else if (a.equalsIgnoreCase("mara kha"))
             e.getChannel().sendMessage("na, tui kha").queue();
         else if (a.equalsIgnoreCase("tui mara kha"))
@@ -29,12 +29,10 @@ public class Reply extends ListenerAdapter {
             e.getChannel().sendMessage("ho, shanto noob").queue();
         else if (a.equalsIgnoreCase("|marakha")||a.equalsIgnoreCase("|mara kha"))
             e.getChannel().sendMessage("Ghumaitesi, jalas na\nSong sunte chaile |join koray |play lekh").queue();
-        else if (a.equalsIgnoreCase("<@&513390467925409833>"))
+        else if (a.equalsIgnoreCase("<@&513390467925409833>")) //outlaw
             e.getChannel().sendMessage("Outlaw is dead").queue();
         else if (a.equalsIgnoreCase("lol"))
-            e.getChannel().sendMessage("L 0 L").queue();
-        else if (a.equalsIgnoreCase("Rachel"))
-            e.getChannel().sendMessage("Baler nam nibi na").queue();
+            e.getChannel().sendMessage("mara kha :p").queue();
         
         else if (a.equalsIgnoreCase("<@446335997085483029>")) //Tasin
             e.getChannel().sendMessage("Ami boba, kotha bolbo na!").queue();
