@@ -52,7 +52,7 @@ public class Reply extends ListenerAdapter {
         else if (a.equalsIgnoreCase("<@435077413253152770>")) //ami
             e.getChannel().sendMessage("ghumaitesi, jalash na").queue();
         else if (a.equalsIgnoreCase("<@885388273160192022>")) //bot
-            e.getChannel().sendMessage("ghumaitesi, jalash na").queue();
+            e.getChannel().sendMessage("ki chas? dure giye mara kha").queue();
         
         else if (a.equalsIgnoreCase("<@493855038796595200>")) //Shanto
             e.getChannel().sendMessage("pola noob").queue();
