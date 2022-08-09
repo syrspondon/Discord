@@ -48,6 +48,8 @@ public class Reply extends ListenerAdapter {
             e.getChannel().sendMessage("Java is life").queue();
         else if (a.equalsIgnoreCase("<@906059468209524736>")) //boro Shanto
             e.getChannel().sendMessage("baler game").queue();
+        else if (a.equalsIgnoreCase("<@492708432860807178>")) //reaj
+            e.getChannel().sendMessage("panthopath amr sosurbari").queue();
         
         else if (a.equalsIgnoreCase("<@435077413253152770>")) //ami
             e.getChannel().sendMessage("ghumaitesi, jalash na").queue();
